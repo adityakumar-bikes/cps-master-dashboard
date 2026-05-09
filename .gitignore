@@ -1,0 +1,37 @@
+# Raw data files (large, not needed for dashboard)
+*.xlsx
+*.csv
+*.xls
+
+# Python
+*.py
+*.pyc
+__pycache__/
+
+# Windows/Mac scripts & binaries
+*.bat
+*.command
+*.exe
+cloudflared-mac
+cloudflared.exe
+
+# Data folders
+Failed Data/
+Generation Data from BD CRM Table/
+LD Files/
+LMS Files/
+LMS Data for Latest Lead Status/
+SIAM Data/
+Bajaj CPS/
+
+# Large media & docs
+*.pptx
+*.docx
+*.mp4
+
+# System
+.DS_Store
+.rebuild_manifest.json
+
+# Claude
+.claude/
